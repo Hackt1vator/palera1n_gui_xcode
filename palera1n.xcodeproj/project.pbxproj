@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4914B3DD2A1FB03E00F77896 /* palera1nApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4914B3DC2A1FB03E00F77896 /* palera1nApp.swift */; };
+		4914B3DF2A1FB03E00F77896 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4914B3DE2A1FB03E00F77896 /* ContentView.swift */; };
+		4914B3E12A1FB05E00F77896 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4914B3E02A1FB05E00F77896 /* Assets.xcassets */; };
+		4914B3E42A1FB05E00F77896 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4914B3E32A1FB05E00F77896 /* Preview Assets.xcassets */; };
+		4914B3EF2A1FB05F00F77896 /* palera1nTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4914B3EE2A1FB05F00F77896 /* palera1nTests.swift */; };
+		4914B3F92A1FB05F00F77896 /* palera1nUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4914B3F82A1FB05F00F77896 /* palera1nUITests.swift */; };
+		4914B3FB2A1FB05F00F77896 /* palera1nUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4914B3FA2A1FB05F00F77896 /* palera1nUITestsLaunchTests.swift */; };
+		493AF57E2A2CA60800B0E594 /* rootless.sh in Resources */ = {isa = PBXBuildFile; fileRef = 493AF57D2A2CA60800B0E594 /* rootless.sh */; };
+		49B6A9CD2A2BDC6C0076F6F7 /* palera1n-macos-universal in Resources */ = {isa = PBXBuildFile; fileRef = 49B6A9CA2A2BDC6B0076F6F7 /* palera1n-macos-universal */; };
+		49B6A9CE2A2BDC6C0076F6F7 /* boot.sh in Resources */ = {isa = PBXBuildFile; fileRef = 49B6A9CB2A2BDC6C0076F6F7 /* boot.sh */; };
+		49B6A9CF2A2BDC6C0076F6F7 /* create.sh in Resources */ = {isa = PBXBuildFile; fileRef = 49B6A9CC2A2BDC6C0076F6F7 /* create.sh */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4914B3EB2A1FB05F00F77896 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4914B3D12A1FB03D00F77896 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4914B3D82A1FB03E00F77896;
+			remoteInfo = palera1n;
+		};
+		4914B3F52A1FB05F00F77896 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4914B3D12A1FB03D00F77896 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4914B3D82A1FB03E00F77896;
+			remoteInfo = palera1n;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4914B3D92A1FB03E00F77896 /* palera1n.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = palera1n.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4914B3DC2A1FB03E00F77896 /* palera1nApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = palera1nApp.swift; sourceTree = "<group>"; };
+		4914B3DE2A1FB03E00F77896 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4914B3E02A1FB05E00F77896 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4914B3E32A1FB05E00F77896 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4914B3E52A1FB05E00F77896 /* palera1n.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = palera1n.entitlements; sourceTree = "<group>"; };
+		4914B3EA2A1FB05F00F77896 /* palera1nTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = palera1nTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4914B3EE2A1FB05F00F77896 /* palera1nTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = palera1nTests.swift; sourceTree = "<group>"; };
+		4914B3F42A1FB05F00F77896 /* palera1nUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = palera1nUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4914B3F82A1FB05F00F77896 /* palera1nUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = palera1nUITests.swift; sourceTree = "<group>"; };
+		4914B3FA2A1FB05F00F77896 /* palera1nUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = palera1nUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		493AF57D2A2CA60800B0E594 /* rootless.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = rootless.sh; path = ../../../rootless.sh; sourceTree = "<group>"; };
+		49B6A9CA2A2BDC6B0076F6F7 /* palera1n-macos-universal */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = "palera1n-macos-universal"; path = "../../../palera1n-macos-universal"; sourceTree = "<group>"; };
+		49B6A9CB2A2BDC6C0076F6F7 /* boot.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = boot.sh; path = ../../../boot.sh; sourceTree = "<group>"; };
+		49B6A9CC2A2BDC6C0076F6F7 /* create.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = create.sh; path = ../../../create.sh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4914B3D62A1FB03E00F77896 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4914B3E72A1FB05F00F77896 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4914B3F12A1FB05F00F77896 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4914B3D02A1FB03D00F77896 = {
+			isa = PBXGroup;
+			children = (
+				4914B3DB2A1FB03E00F77896 /* palera1n */,
+				4914B3ED2A1FB05F00F77896 /* palera1nTests */,
+				4914B3F72A1FB05F00F77896 /* palera1nUITests */,
+				4914B3DA2A1FB03E00F77896 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4914B3DA2A1FB03E00F77896 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4914B3D92A1FB03E00F77896 /* palera1n.app */,
+				4914B3EA2A1FB05F00F77896 /* palera1nTests.xctest */,
+				4914B3F42A1FB05F00F77896 /* palera1nUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4914B3DB2A1FB03E00F77896 /* palera1n */ = {
+			isa = PBXGroup;
+			children = (
+				493AF57D2A2CA60800B0E594 /* rootless.sh */,
+				49B6A9CB2A2BDC6C0076F6F7 /* boot.sh */,
+				49B6A9CC2A2BDC6C0076F6F7 /* create.sh */,
+				49B6A9CA2A2BDC6B0076F6F7 /* palera1n-macos-universal */,
+				4914B3DC2A1FB03E00F77896 /* palera1nApp.swift */,
+				4914B3DE2A1FB03E00F77896 /* ContentView.swift */,
+				4914B3E02A1FB05E00F77896 /* Assets.xcassets */,
+				4914B3E52A1FB05E00F77896 /* palera1n.entitlements */,
+				4914B3E22A1FB05E00F77896 /* Preview Content */,
+			);
+			path = palera1n;
+			sourceTree = "<group>";
+		};
+		4914B3E22A1FB05E00F77896 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4914B3E32A1FB05E00F77896 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4914B3ED2A1FB05F00F77896 /* palera1nTests */ = {
+			isa = PBXGroup;
+			children = (
+				4914B3EE2A1FB05F00F77896 /* palera1nTests.swift */,
+			);
+			path = palera1nTests;
+			sourceTree = "<group>";
+		};
+		4914B3F72A1FB05F00F77896 /* palera1nUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4914B3F82A1FB05F00F77896 /* palera1nUITests.swift */,
+				4914B3FA2A1FB05F00F77896 /* palera1nUITestsLaunchTests.swift */,
+			);
+			path = palera1nUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4914B3D82A1FB03E00F77896 /* palera1n */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4914B3FE2A1FB05F00F77896 /* Build configuration list for PBXNativeTarget "palera1n" */;
+			buildPhases = (
+				4914B3D52A1FB03E00F77896 /* Sources */,
+				4914B3D62A1FB03E00F77896 /* Frameworks */,
+				4914B3D72A1FB03E00F77896 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = palera1n;
+			productName = palera1n;
+			productReference = 4914B3D92A1FB03E00F77896 /* palera1n.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4914B3E92A1FB05F00F77896 /* palera1nTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4914B4012A1FB05F00F77896 /* Build configuration list for PBXNativeTarget "palera1nTests" */;
+			buildPhases = (
+				4914B3E62A1FB05F00F77896 /* Sources */,
+				4914B3E72A1FB05F00F77896 /* Frameworks */,
+				4914B3E82A1FB05F00F77896 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4914B3EC2A1FB05F00F77896 /* PBXTargetDependency */,
+			);
+			name = palera1nTests;
+			productName = palera1nTests;
+			productReference = 4914B3EA2A1FB05F00F77896 /* palera1nTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4914B3F32A1FB05F00F77896 /* palera1nUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4914B4042A1FB05F00F77896 /* Build configuration list for PBXNativeTarget "palera1nUITests" */;
+			buildPhases = (
+				4914B3F02A1FB05F00F77896 /* Sources */,
+				4914B3F12A1FB05F00F77896 /* Frameworks */,
+				4914B3F22A1FB05F00F77896 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4914B3F62A1FB05F00F77896 /* PBXTargetDependency */,
+			);
+			name = palera1nUITests;
+			productName = palera1nUITests;
+			productReference = 4914B3F42A1FB05F00F77896 /* palera1nUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4914B3D12A1FB03D00F77896 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					4914B3D82A1FB03E00F77896 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					4914B3E92A1FB05F00F77896 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 4914B3D82A1FB03E00F77896;
+					};
+					4914B3F32A1FB05F00F77896 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 4914B3D82A1FB03E00F77896;
+					};
+				};
+			};
+			buildConfigurationList = 4914B3D42A1FB03D00F77896 /* Build configuration list for PBXProject "palera1n" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4914B3D02A1FB03D00F77896;
+			productRefGroup = 4914B3DA2A1FB03E00F77896 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4914B3D82A1FB03E00F77896 /* palera1n */,
+				4914B3E92A1FB05F00F77896 /* palera1nTests */,
+				4914B3F32A1FB05F00F77896 /* palera1nUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4914B3D72A1FB03E00F77896 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B6A9CF2A2BDC6C0076F6F7 /* create.sh in Resources */,
+				4914B3E42A1FB05E00F77896 /* Preview Assets.xcassets in Resources */,
+				49B6A9CD2A2BDC6C0076F6F7 /* palera1n-macos-universal in Resources */,
+				4914B3E12A1FB05E00F77896 /* Assets.xcassets in Resources */,
+				49B6A9CE2A2BDC6C0076F6F7 /* boot.sh in Resources */,
+				493AF57E2A2CA60800B0E594 /* rootless.sh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4914B3E82A1FB05F00F77896 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4914B3F22A1FB05F00F77896 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4914B3D52A1FB03E00F77896 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4914B3DF2A1FB03E00F77896 /* ContentView.swift in Sources */,
+				4914B3DD2A1FB03E00F77896 /* palera1nApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4914B3E62A1FB05F00F77896 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4914B3EF2A1FB05F00F77896 /* palera1nTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4914B3F02A1FB05F00F77896 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4914B3FB2A1FB05F00F77896 /* palera1nUITestsLaunchTests.swift in Sources */,
+				4914B3F92A1FB05F00F77896 /* palera1nUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4914B3EC2A1FB05F00F77896 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4914B3D82A1FB03E00F77896 /* palera1n */;
+			targetProxy = 4914B3EB2A1FB05F00F77896 /* PBXContainerItemProxy */;
+		};
+		4914B3F62A1FB05F00F77896 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4914B3D82A1FB03E00F77896 /* palera1n */;
+			targetProxy = 4914B3F52A1FB05F00F77896 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4914B3FC2A1FB05F00F77896 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4914B3FD2A1FB05F00F77896 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4914B3FF2A1FB05F00F77896 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = palera1n/palera1n.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"palera1n/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hackt1vator.palera1n;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4914B4002A1FB05F00F77896 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = palera1n/palera1n.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"palera1n/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hackt1vator.palera1n;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4914B4022A1FB05F00F77896 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hackt1vator.palera1nTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/palera1n.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/palera1n";
+			};
+			name = Debug;
+		};
+		4914B4032A1FB05F00F77896 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hackt1vator.palera1nTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/palera1n.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/palera1n";
+			};
+			name = Release;
+		};
+		4914B4052A1FB05F00F77896 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hackt1vator.palera1nUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = palera1n;
+			};
+			name = Debug;
+		};
+		4914B4062A1FB05F00F77896 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hackt1vator.palera1nUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = palera1n;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4914B3D42A1FB03D00F77896 /* Build configuration list for PBXProject "palera1n" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4914B3FC2A1FB05F00F77896 /* Debug */,
+				4914B3FD2A1FB05F00F77896 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4914B3FE2A1FB05F00F77896 /* Build configuration list for PBXNativeTarget "palera1n" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4914B3FF2A1FB05F00F77896 /* Debug */,
+				4914B4002A1FB05F00F77896 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4914B4012A1FB05F00F77896 /* Build configuration list for PBXNativeTarget "palera1nTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4914B4022A1FB05F00F77896 /* Debug */,
+				4914B4032A1FB05F00F77896 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4914B4042A1FB05F00F77896 /* Build configuration list for PBXNativeTarget "palera1nUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4914B4052A1FB05F00F77896 /* Debug */,
+				4914B4062A1FB05F00F77896 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4914B3D12A1FB03D00F77896 /* Project object */;
+}
